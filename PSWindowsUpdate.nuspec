@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>PSWindowsUpdate</id>
+    <version>2.2.0.2</version>
+    <title>PSWindowsUpdate (PowerShell Module)</title>
+    <authors>Michal Gajda</authors>
+    <owners>virtualex Kristinn-Stefansson</owners>
+    <projectUrl>https://www.powershellgallery.com/packages/PSWindowsUpdate</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/virtualex-itv/choco-pswindowsupdate/5bdf1171dfc2d249953ae504db72eecf1aac0e8a/_icon/pswindowsupdate.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Powershell module that allows you to manage Windows Update, check, download and install or remove updates. Especially useful on machines in core edition like Windows Server 2008 R2.
+    
+    Please see the [**README**](https://github.com/virtualex-itv/choco-pswindowsupdate) for chocolatey-test-environment installation.
+	
+	**NOTE**: This is an automatically updated package. If you find it is out of date by more than a week, please contact the maintainer(s) and let them know the package is no longer updating correctly.</description>
+    <summary>This Powershell module allows you to manage Windows Update on a Windows system. Module contains 9 functions to check, download and install updates from PowerShell. 
+		To import module use:
+		`Import-Module PSWindowsUpdate`</summary>
+    <releaseNotes>https://www.powershellgallery.com/packages/PSWindowsUpdate/2.2.0.2#</releaseNotes>
+    <copyright>Copyright © 2011-2020 Michal Gajda. All rights reserved.</copyright>
+    <tags>PowerShell admin Scripting Windows Update module</tags>
+    <packageSourceUrl>https://github.com/virtualex-itv/choco-pswindowsupdate/tree/master</packageSourceUrl>
+    <dependencies>
+      <dependency id="powershell" version="3.0.20120904" />
+    </dependencies>
+  </metadata>
+</package>
