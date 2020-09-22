@@ -16,3 +16,4 @@ if (Get-Module -ListAvailable -Name $moduleName -ErrorAction SilentlyContinue){
 # install module
 Get-PackageProvider -Name "NuGet" -Force
 Install-Module -Name $moduleName -Scope AllUsers -RequiredVersion $moduleVersion -Force
+Import-Module -Name $moduleName
