@@ -8,6 +8,7 @@
     <owners>virtualex Kristinn-Stefansson</owners>
     <projectUrl>https://www.powershellgallery.com/packages/PSWindowsUpdate</projectUrl>
     <iconUrl>https://rawcdn.githack.com/virtualex-itv/choco-pswindowsupdate/5bdf1171dfc2d249953ae504db72eecf1aac0e8a/_icon/pswindowsupdate.png</iconUrl>
+    <licenseUrl>https://docs.microsoft.com/en-us/legal/termsofuse</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Powershell module that allows you to manage Windows Update, check, download and install or remove updates. Especially useful on machines in core edition like Windows Server 2008 R2.
     
@@ -20,6 +21,9 @@
     <releaseNotes>https://www.powershellgallery.com/packages/PSWindowsUpdate/2.2.0.2#</releaseNotes>
     <copyright>Copyright © 2011-2020 Michal Gajda. All rights reserved.</copyright>
     <tags>PowerShell admin Scripting Windows Update module</tags>
-    <packageSourceUrl>https://github.com/virtualex-itv/choco-pswindowsupdate/tree/master</packageSourceUrl>
+    <packageSourceUrl>https://github.com/virtualex-itv/choco-pswindowsupdate/tree/master/</packageSourceUrl>
   </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>

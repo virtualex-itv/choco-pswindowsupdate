@@ -19,12 +19,13 @@ if ($spec.package.metadata.version.CompareTo($version)) {
 }
 
 "TEST: Package should contain install/uninstall scripts"
-Add-Type -AssemblyName "system.io.compression.filesystem"
+Add-Type -assembly "system.io.compression.filesystem"
 $zip = [IO.Compression.ZipFile]::OpenRead("$pwd\pswindowsupdate.$version.nupkg")
+# Write-Host $zip.Entries.FullName
 Write-Host $zip.Entries.Count
-<# if ($zip.Entries.Count -ne 15) {
+if ($zip.Entries.Count -ne 15) {
   Write-Error "FAIL: Wrong count in nupkg!"
-} #>
+}
 $zip.Dispose()
 
 "TEST: Installation of package should work"
