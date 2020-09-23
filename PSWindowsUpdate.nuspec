@@ -21,8 +21,5 @@
     <copyright>Copyright © 2011-2020 Michal Gajda. All rights reserved.</copyright>
     <tags>PowerShell admin Scripting Windows Update module</tags>
     <packageSourceUrl>https://github.com/virtualex-itv/choco-pswindowsupdate/tree/master</packageSourceUrl>
-    <dependencies>
-      <dependency id="powershell" version="3.0.20120904" />
-    </dependencies>
   </metadata>
 </package>
